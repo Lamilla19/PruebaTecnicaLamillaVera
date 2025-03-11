@@ -3,6 +3,9 @@
 const express = require ('express');
 const mongoose = require ('mongoose');
 const dotenv = require('dotenv');
+//rutas
+const rutaVuelo = require('./rutas/ruta_vuelo');
+const rutaReserva = require('./rutas/ruta_reserva');
 
 //variables de entorno
 dotenv.config();
@@ -23,11 +26,9 @@ mongoose.connect(process.env.MONGODB_URI).then(()=>{
 //Convierto los datos de las solicitudes HTTP a formato JSON
 appServer.use(express.json());
 
-
-//ruta de prueba
-appServer.get('/',(req,res)=>{
-    res.send('Backent de gestion de reservas de vuelos');
-});
+//rutas
+appServer.use('/api',rutaVuelo);
+appServer.use('/api',rutaReserva);
 
 //Inicio el servidor
 appServer.listen(PORT,()=>{
