@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 //rutas
 const rutaVuelo = require('./rutas/ruta_vuelo');
 const rutaReserva = require('./rutas/ruta_reserva');
+const rutaUsuario = require('./rutas/ruta_usuario');
 
 //variables de entorno
 dotenv.config();
@@ -29,6 +30,7 @@ appServer.use(express.json());
 //rutas
 appServer.use('/api',rutaVuelo);
 appServer.use('/api',rutaReserva);
+appServer.use('/api',rutaUsuario);
 
 //Inicio el servidor
 appServer.listen(PORT,()=>{

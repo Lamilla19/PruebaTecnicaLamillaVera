@@ -16,5 +16,10 @@ modelo_usuarios.pre('save',async function(next) {
     next();
 });
 
+//Se comparan las contraseñas
+modelo_usuarios.methods.comparePassword = async function (contraseñaUsuario){
+    return await bcrypt.compare(contraseñaUsuario, this.contraseña);
+}
+
 
 module.exports = mongoose.model('usuarios',modelo_usuarios);
