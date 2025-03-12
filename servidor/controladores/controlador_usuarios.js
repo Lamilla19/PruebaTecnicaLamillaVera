@@ -23,9 +23,7 @@ const registrarUsuario = async(req, res)=>{
         await usuario.save();
 
         // Se genera el token jwt
-        const token = jwt.sign({ userId : usuario._id }, process.env.JWT_SECRET,{
-            expiresIn:'1h',
-        })
+        const token = jwt.sign({ userId : usuario._id }, process.env.JWT_SECRET)
 
         console.log("El token de registrar es  :", token);
 
@@ -53,9 +51,7 @@ const loginUsuario = async (req , res)=>{
         if(!contraseñaOK){
             return res.status(400).json({message:'credenciales invalidas'})
         }
-        const token = jwt.sign({userId : usuarioActivo._id},process.env.JWT_SECRET,{
-            expiresIn:'1h',
-        });
+        const token = jwt.sign({userId : usuarioActivo._id},process.env.JWT_SECRET);
 
         res.json({token});
 
