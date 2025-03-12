@@ -1,3 +1,10 @@
+
+# DOCUMENTACION API DE POSTMAN 
+
+## LINK : https://documenter.getpostman.com/view/18076308/2sAYk8uNVw
+![image](https://github.com/user-attachments/assets/100778b8-0bf4-4a8d-a22b-2a4f98fa9825)
+
+
 # Sistema de Gestión de Reservas de Vuelos ✈️
 
 Este es un backend desarrollado en **Node.js** y **Express** para gestionar reservas de vuelos.
