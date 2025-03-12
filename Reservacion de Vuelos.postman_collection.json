@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "82b360a5-6da3-4d4c-ad48-a69fab6ec3d4",
+		"name": "Reservacion de Vuelos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18076308"
+	},
+	"item": [
+		{
+			"name": "Busqueda de vuelo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/vuelos?origen=Ecuador&destino=Quito&fecha=2025-12-25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vuelos"
+					],
+					"query": [
+						{
+							"key": "origen",
+							"value": "Ecuador"
+						},
+						{
+							"key": "destino",
+							"value": "Quito"
+						},
+						{
+							"key": "fecha",
+							"value": "2025-12-25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear reserva",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QwZTU5MzA1ZmI0OGMxYjg4NGZmOGUiLCJpYXQiOjE3NDE3NDM1MDd9.H3XArjNJrgVLh7kdyUWwfgRLSutW4wAg-RBgLLx31Fc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vueloId\": \"67cfcced1852a3281d7c0452\",\r\n    \"usuarioId\": \"653f1a2b1c9d440001a1b2c5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/reservas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"reservas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancelar reserva",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QwZTU5MzA1ZmI0OGMxYjg4NGZmOGUiLCJpYXQiOjE3NDE3NDM1MDd9.H3XArjNJrgVLh7kdyUWwfgRLSutW4wAg-RBgLLx31Fc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/reservas/67d0e9557184e4f002e5ee34",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"reservas",
+						"67d0e9557184e4f002e5ee34"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar reservas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QwZTU5MzA1ZmI0OGMxYjg4NGZmOGUiLCJpYXQiOjE3NDE3NDM1MDd9.H3XArjNJrgVLh7kdyUWwfgRLSutW4wAg-RBgLLx31Fc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/usuarios/653f1a2b1c9d440001a1b2c5/reservas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"usuarios",
+						"653f1a2b1c9d440001a1b2c5",
+						"reservas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registro de usuario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QwZTU5MzA1ZmI0OGMxYjg4NGZmOGUiLCJpYXQiOjE3NDE3NDM1MDd9.H3XArjNJrgVLh7kdyUWwfgRLSutW4wAg-RBgLLx31Fc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Kevin Perez\",\r\n    \"correo\": \"kevin16@gmail.com\",\r\n    \"contraseña\": \"kjlv\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/registro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inicio de sesion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QwZTU5MzA1ZmI0OGMxYjg4NGZmOGUiLCJpYXQiOjE3NDE3NDM1MDd9.H3XArjNJrgVLh7kdyUWwfgRLSutW4wAg-RBgLLx31Fc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\": \"kevin@gmail.com\",\r\n    \"contraseña\": \"kjlv\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
