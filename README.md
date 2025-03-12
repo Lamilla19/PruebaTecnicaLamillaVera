@@ -16,6 +16,28 @@ Este es un backend desarrollado en **Node.js** y **Express** para gestionar rese
 - **Reservas de Vuelos**: Los usuarios pueden reservar y cancelar vuelos.
 - **Base de Datos con Datos Reales**: Usa una API pública para llenar la base de datos con información de vuelos.
 
+
+## TECNOLOGIAS UTILIZADAS 
+
+## Backend
+
+Node.js: Entorno de ejecución para JavaScript del lado del servidor.
+
+Express: Framework para construir aplicaciones web y APIs en Node.js.
+
+Mongoose: Librería para interactuar con MongoDB desde Node.js.
+
+JWT (JSON Web Tokens): Para autenticación y manejo de sesiones.
+
+Bcrypt: Para hashear contraseñas y mejorar la seguridad.
+
+## Base de Datos
+MongoDB: Base de datos NoSQL para almacenar información de vuelos, usuarios y reservas.
+
+## APIs Externas
+Axios: Librería para hacer solicitudes HTTP a APIs externas
+
+Dotenv: Para manejar variables de entorno (como claves API y configuraciones).
 ## Requisitos Previos 📋
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
@@ -109,8 +131,6 @@ URL: /api/usuarios/:usuarioId/reservas
 
 
 ![image](https://github.com/user-attachments/assets/65befd5c-f086-4354-8ffa-e6fb0f39c1eb)
-
-
 
 
 Contacto 📧
