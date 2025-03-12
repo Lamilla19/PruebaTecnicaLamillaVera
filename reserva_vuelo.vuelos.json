@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "67cfcced1852a3281d7c0452"
+  },
+  "origen": "Ecuador",
+  "destino": "Quito",
+  "fecha": {
+    "$date": "2025-12-25T00:00:00.000Z"
+  },
+  "horario": "13:00",
+  "disponibilidad": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cfcdb9e6cee25eb0fbde6a"
+  },
+  "origen": "Ecuador",
+  "destino": "Quito",
+  "fecha": {
+    "$date": "2025-12-25T00:00:00.000Z"
+  },
+  "horario": "13:00",
+  "disponibilidad": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57e2"
+  },
+  "origen": "Xiamen",
+  "destino": "Ted Stevens Anchorage International Airport",
+  "fecha": {
+    "$date": "2025-03-12T08:45:00.000Z"
+  },
+  "horario": "08:45",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57e4"
+  },
+  "origen": "Srinagar",
+  "destino": "Indira Gandhi International",
+  "fecha": {
+    "$date": "2025-03-12T07:45:00.000Z"
+  },
+  "horario": "07:45",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57e6"
+  },
+  "origen": "Toowoomba Wellcamp Airport\r\n",
+  "destino": "Maroochydore",
+  "fecha": {
+    "$date": "2025-03-12T08:30:00.000Z"
+  },
+  "horario": "08:30",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57e8"
+  },
+  "origen": "Injune",
+  "destino": "Maroochydore",
+  "fecha": {
+    "$date": "2025-03-12T09:30:00.000Z"
+  },
+  "horario": "09:30",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57ea"
+  },
+  "origen": "Hangzhou",
+  "destino": "Beijing Capital International",
+  "fecha": {
+    "$date": "2025-03-12T08:00:00.000Z"
+  },
+  "horario": "08:00",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57ec"
+  },
+  "origen": "Kunming",
+  "destino": "Shanghai Hongqiao International",
+  "fecha": {
+    "$date": "2025-03-12T09:00:00.000Z"
+  },
+  "horario": "09:00",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57ee"
+  },
+  "origen": "Beijing Daxing International Airport",
+  "destino": "Urumqi",
+  "fecha": {
+    "$date": "2025-03-12T09:00:00.000Z"
+  },
+  "horario": "09:00",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57f0"
+  },
+  "origen": "Goa International",
+  "destino": "Hyderabad Airport",
+  "fecha": {
+    "$date": "2025-03-12T00:50:00.000Z"
+  },
+  "horario": "00:50",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57f2"
+  },
+  "origen": "Narita International Airport",
+  "destino": "Shanghai Pudong International",
+  "fecha": {
+    "$date": "2025-03-12T10:55:00.000Z"
+  },
+  "horario": "10:55",
+  "disponibilidad": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0ade7f88291454c5b57f4"
+  },
+  "origen": "Soekarno-Hatta International",
+  "destino": "Hang Nadim",
+  "fecha": {
+    "$date": "2025-03-12T05:45:00.000Z"
+  },
+  "horario": "05:45",
+  "disponibilidad": 100,
+  "__v": 0
+}]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67cfcdb9e6cee25eb0fbde6c"
+  },
+  "nombre": "kevin",
+  "correo": "kevinlamilla16@gmail.com",
+  "contraseña": "$2b$10$NsB.K.qzseZFO1yzsuuuNOKQQPymKgQGbaPvfje5Y5iv1i6E1v.pG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0a31552bc00d762478272"
+  },
+  "nombre": "Matias Lamilla",
+  "correo": "matiasl19@gmail.com",
+  "contraseña": "$2b$10$OEdo5I6hE1Q9OST0Ly7MJeoEwOLtRsCBDxDQeuop4nsx01sEqV2b2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0e59305fb48c1b884ff8e"
+  },
+  "nombre": "Kevin Lamilla",
+  "correo": "kevin@gmail.com",
+  "contraseña": "$2b$10$Mh.n10z302sxvQC7c7AIluJgTZPpTD8Jt005M81Z9rrBlUwK/Yxl6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0e61977d694336bee0704"
+  },
+  "nombre": "Kevin Perez",
+  "correo": "kevin16@gmail.com",
+  "contraseña": "$2b$10$9un1NSRlrQ99I5B6D71RWOELfZ0AxbXqPzAHMWUhRnpmPh3h9Njiu",
+  "__v": 0
+}]

@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "67cfcdb9e6cee25eb0fbde6f"
+  },
+  "id_usuario": {
+    "$oid": "67cfcdb9e6cee25eb0fbde6c"
+  },
+  "id_vuelo": {
+    "$oid": "67cfcdb9e6cee25eb0fbde6a"
+  },
+  "estado": "active",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d061c8da6b43c48028e4b8"
+  },
+  "id_usuario": {
+    "$oid": "653f1a2b1c9d440001a1b2c5"
+  },
+  "id_vuelo": {
+    "$oid": "67cfcced1852a3281d7c0452"
+  },
+  "estado": "active",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d0a33352bc00d762478275"
+  },
+  "id_usuario": {
+    "$oid": "653f1a2b1c9d440001a1b2c5"
+  },
+  "id_vuelo": {
+    "$oid": "67cfcced1852a3281d7c0452"
+  },
+  "estado": "active",
+  "__v": 0
+}]
